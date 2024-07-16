@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Weather App
+    link(rel="stylesheet", href="/styles.css")
+  body
+    h1 Weather in #{city}
+    if weather
+      p Temperature: #{weather.Temperature.Metric.Value} °C
+      p Weather: #{weather.WeatherText}
+      //- p Local Obeservation Time: #{weather.LocalObservationDateTime} // Just check the payload using the Accuweather Application to get the params to query
+    else
+      p No weather data available
