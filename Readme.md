@@ -20,8 +20,9 @@ npm install express axios dotenv pug
 
 1.	Sign Up for AccuWeather API: Create an account on AccuWeather.
 2. Goto MyApps option at the top navbar and create an application clicking on `Add New App`. Copy your API Key from there.
-2.	Create a .env File: Store your API key in a .env file.
+3.	Create a .env File: Store your API key in a .env file.
 ACCUWEATHER_API_KEY=your_api_key_here
+- FYI (Not Mandatory)-AccuWeather CurrentCondition API Test Endpoint: https://developer.accuweather.com/accuweather-current-conditions-api/apis/get/currentconditions/v1/%7BlocationKey%7D
 
 ### Step 3: Create Server-Side Code
 
